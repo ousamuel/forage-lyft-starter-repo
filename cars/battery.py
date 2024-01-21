@@ -16,7 +16,7 @@ class Battery(Serviceable):
 
 class SpindlerBattery(Battery):
     def __init__(self, last_service_date: date, current_date: date):
-        super().__init__(last_service_date, current_date, 365 * 2)
+        super().__init__(last_service_date, current_date, 365 * 3)
 
 class NubbinBattery(Battery):
     def __init__(self, last_service_date: date, current_date: date):
